@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('fonts/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('fonts/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root{
+    --font-main: 'Figtree', sans-serif;
+
+    --space-300: 24px;
+    --space-150: 12px;
+    --space-100: 8px;
+    --space-50: 4px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: var(--font-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    padding: var(--space-300);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: clamp(327px, 100%, 384px);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    padding: var(--space-300);
+    box-shadow: 8px 8px 0 0 hsl(0, 0%, 7%); 
+    margin: 0 auto var(--space-300) auto;
+}
+
+.card-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-150);
+    margin-top: var(--space-300);
+}
+
+.card-category{
+    background-color: hsl(47, 88%, 63%);
+    padding: var(--space-50) var(--space-150);
+    border-radius: 0.25rem;
+    width: max-content;
+    display: inline-block;
+}
+
+.card-category-text{
+    font-family: var(--font-main);
+    font-size: clamp(12px, 1.5vw, 14px);
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+
+.card-date{
+    font-family: var(--font-main);
+    font-size: clamp(12px, 1.5vw, 14px);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.card-title{
+    font-family: var(--font-main);
+    font-size: clamp(20px, 2.5vw, 24px);
+    font-weight: 800;
+    line-height: 1.5rem;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.card-title:hover,
+.card-title:focus,
+.card-title:active,
+.card-title:focus-visible{
+    color: hsl(47, 88%, 63%);
+}
+
+.card-description{
+    font-family: var(--font-main);
+    font-size: clamp(14px, 1.8vw, 16px);
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 42%);
+}
+
+.card-author{
+    display: flex;
+    align-items: center;
+    gap: var(--space-150);
+    margin-top: var(--space-300);
+}
+
+.card-author img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+} 
+
+.card-author-name{
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+
+/*footer*/
+.attribution { 
+    font-family: var(--font-main);
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+}
