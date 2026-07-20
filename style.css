@@ -71,37 +71,41 @@ body{
 }
 
 .card-category-text{
-    font-family: var(--font-main);
     font-size: clamp(12px, 1.5vw, 14px);
     font-weight: 800;
     line-height: 1.5rem;
 }
 
 .card-date{
-    font-family: var(--font-main);
     font-size: clamp(12px, 1.5vw, 14px);
     font-weight: 500;
     line-height: 1.5rem;
 }
 
 .card-title{
-    font-family: var(--font-main);
     font-size: clamp(20px, 2.5vw, 24px);
     font-weight: 800;
     line-height: 1.5rem;
-    transition: color 0.2s ease;
-    cursor: pointer;
 }
 
-.card-title:hover,
-.card-title:focus,
-.card-title:active,
-.card-title:focus-visible{
+.card-title a{
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    transition: color 0.2s ease;
+    display: inline-block;
+}
+
+.card-title a:hover,
+.card-title a:active{
     color: hsl(47, 88%, 63%);
 }
 
+.card-title a:focus-visible{
+    color: hsl(47, 88%, 63%);   
+    outline-offset: 2px;
+}
+
 .card-description{
-    font-family: var(--font-main);
     font-size: clamp(14px, 1.8vw, 16px);
     font-weight: 500;
     line-height: 1.5rem;
@@ -122,7 +126,6 @@ body{
 } 
 
 .card-author-name{
-    font-family: var(--font-main);
     font-size: 14px;
     font-weight: 800;
     line-height: 1.5rem;
@@ -130,7 +133,6 @@ body{
 
 /*footer*/
 .attribution { 
-    font-family: var(--font-main);
     font-size: 11px; 
     text-align: center; 
 }
