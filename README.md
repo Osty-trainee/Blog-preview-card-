@@ -21,7 +21,7 @@ This project is built with a mobile-first approach without the use of @media, en
 
 ### Screenshot
 
-<img width="1876" height="1012" alt="image" src="https://github.com/user-attachments/assets/3ab64af8-9bb0-4fdb-9f53-dde61c583e39" />
+<img width="1919" height="994" alt="Screenshot_2" src="https://github.com/user-attachments/assets/122bc779-d5df-4ad3-a633-ce1b89cac44b" />
 
 ### Links
 
