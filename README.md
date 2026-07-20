@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![My final solution screenshot of the Blog Preview Card](<img width="1919" height="994" alt="Screenshot_2" src="https://github.com/user-attachments/assets/733b9d45-4ead-4766-a1bc-9a44b45f1927" />)
+My final solution screenshot of the Blog Preview Card
+(<img width="1919" height="994" alt="Screenshot_2" src="https://github.com/user-attachments/assets/c7ebfc14-45ab-46e8-83db-e0c4c435c959" />
 *Fig 1. Final look of my responsive web card implementation with fluid typography and precise shadow alignment.*
 
 ### Links
@@ -74,5 +75,4 @@ In my upcoming projects, I want to focus on:
 ## Author
 
 - Frontend Mentor - [@Osty-trainee](https://www.frontendmentor.io/profile/Osty-trainee)
-- GitHub - [<img width="1919" height="994" alt="Screenshot_2" src="https://github.com/user-attachments/assets/c7ebfc14-45ab-46e8-83db-e0c4c435c959" />
-Osty-trainee](https://github.com/Osty-trainee)
+- GitHub - [Osty-trainee](https://github.com/Osty-trainee)
