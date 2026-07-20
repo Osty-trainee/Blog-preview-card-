@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My final solution screenshot of the Blog Preview Card](assets/screenshot.png)
+![My final solution screenshot of the Blog Preview Card](<img width="1919" height="994" alt="Screenshot_2" src="https://github.com/user-attachments/assets/733b9d45-4ead-4766-a1bc-9a44b45f1927" />)
 *Fig 1. Final look of my responsive web card implementation with fluid typography and precise shadow alignment.*
 
 ### Links
